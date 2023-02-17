@@ -1,14 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
     <title>FAQ Collapse</title>
-  </head>
-  <body>
+</head>
 
-    
+<body>
+    <h1>JS Frequently Asked Questions</h1>
+    <div class="faq-container">
+        <div class="faq active">
+            <h3 class="faq-title">What is JavaScript??</h3>
+            <p class="faq-text">
+                JavaScript is a lightweight, interpreted programming language with object-oriented capabilities that allows you to build interactivity into otherwise static HTML pages.
+            </p>
+            <button>
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="faq active">
+            <h3 class="faq-title">What are the data types supported by JavaScript?</h3>
+            <p class="faq-text">
+                The data types supported by JavaScript are: Undefined, Null, Boolean, String, Symbol, Number, Object.
+            </p>
+            <button>
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="faq active">
+            <h3 class="faq-title">What is the difference between let, const and var?</h3>
+            <p class="faq-text">
+                Before ES6, JS had no way to support block-level scope variables. Now, we have: <strong>var</strong>  for creating function-level scope variables, <strong>let</strong> for creating dynamic block-level scope variables and <strong>const</strong> for creating constant block-level scope variables.
+            </p>
+            <button>
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="faq active">
+            <h3 class="faq-title">Is JavaScript a case-sensitive language?</h3>
+            <p class="faq-text">
+                Yes, JavaScript is a case sensitive language.  The language keywords, variables, function names, and any other identifiers must always be typed with a consistent capitalization of letters.
+            </p>
+            <button>
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="faq active">
+            <h3 class="faq-title">What is Callback?</h3>
+            <p class="faq-text">
+                A callback is a plain JavaScript function passed to some method as an argument or option. It is a function that is to be executed after another function has finished executing, hence the name ‘call back‘. In JavaScript, functions are objects. Because of this, functions can take functions as arguments, and can be returned by other functions.
+            </p>
+            <button>
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
